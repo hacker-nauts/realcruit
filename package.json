@@ -30,7 +30,7 @@
 	"bugs": {
 		"url": "https://github.com/creativetimofficial/realcruit/issues"
 	},
-	"homepage": "https://hacker-nauts.github.io/realcruit/",
+	"homepage": "https://hacker-nauts.github.io/",
 	"dependencies": {
 		"chart.js": "2.9.3",
 		"classnames": "2.2.6",
@@ -59,7 +59,7 @@
 		"minify-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.min.css --output-style compressed",
 		"map-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.css --source-map true",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -d public"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
