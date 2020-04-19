@@ -1,0 +1,118 @@
+/*!
+
+=========================================================
+*  Realcruit - v1.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/realcruit
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/realcruit/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+$asset-base-path: '../../../../assets' !default;
+
+// Core
+
+@import 'realcruit/custom/functions';
+@import 'realcruit/bootstrap/functions';
+
+@import 'realcruit/custom/variables';
+@import 'realcruit/bootstrap/variables';
+
+@import 'realcruit/custom/mixins';
+@import 'realcruit/bootstrap/mixins';
+
+// Bootstrap components
+
+@import 'realcruit/bootstrap/root';
+@import 'realcruit/bootstrap/reboot';
+@import 'realcruit/bootstrap/type';
+@import 'realcruit/bootstrap/images';
+@import 'realcruit/bootstrap/code';
+@import 'realcruit/bootstrap/grid';
+@import 'realcruit/bootstrap/tables';
+@import 'realcruit/bootstrap/forms';
+@import 'realcruit/bootstrap/buttons';
+@import 'realcruit/bootstrap/transitions';
+@import 'realcruit/bootstrap/dropdown';
+@import 'realcruit/bootstrap/button-group';
+@import 'realcruit/bootstrap/input-group';
+@import 'realcruit/bootstrap/custom-forms';
+@import 'realcruit/bootstrap/nav';
+@import 'realcruit/bootstrap/navbar';
+@import 'realcruit/bootstrap/card';
+@import 'realcruit/bootstrap/breadcrumb';
+@import 'realcruit/bootstrap/pagination';
+@import 'realcruit/bootstrap/badge';
+@import 'realcruit/bootstrap/jumbotron';
+@import 'realcruit/bootstrap/alert';
+@import 'realcruit/bootstrap/progress';
+@import 'realcruit/bootstrap/media';
+@import 'realcruit/bootstrap/list-group';
+@import 'realcruit/bootstrap/close';
+@import 'realcruit/bootstrap/modal';
+@import 'realcruit/bootstrap/tooltip';
+@import 'realcruit/bootstrap/popover';
+@import 'realcruit/bootstrap/carousel';
+@import 'realcruit/bootstrap/utilities';
+@import 'realcruit/bootstrap/print';
+
+// Custom components
+
+@import 'realcruit/custom/alerts.scss';
+@import 'realcruit/custom/buttons.scss';
+@import 'realcruit/custom/dropdown.scss';
+@import 'realcruit/custom/footer.scss';
+@import 'realcruit/custom/forms.scss';
+@import 'realcruit/custom/images.scss';
+@import 'realcruit/custom/modal.scss';
+@import 'realcruit/custom/navbar.scss';
+@import 'realcruit/custom/type.scss';
+@import 'realcruit/custom/icons.scss';
+@import 'realcruit/custom/tables';
+@import 'realcruit/custom/checkboxes-radio';
+@import 'realcruit/custom/fixed-plugin';
+@import 'realcruit/custom/pagination.scss';
+@import 'realcruit/custom/misc.scss';
+@import 'realcruit/custom/rtl.scss';
+@import 'realcruit/custom/input-group.scss';
+@import 'realcruit/custom/example-pages.scss';
+@import 'realcruit/custom/progress.scss';
+@import 'realcruit/custom/badge.scss';
+@import 'realcruit/custom/pills.scss';
+@import 'realcruit/custom/tabs.scss';
+@import 'realcruit/custom/info-areas.scss';
+
+// Sections
+@import 'realcruit/custom/sections.scss';
+
+// Vendor / Plugins
+
+@import 'realcruit/custom/vendor/plugin-perfect-scrollbar.scss';
+@import 'realcruit/custom/vendor/plugin-animate-bootstrap-notify.scss';
+@import 'realcruit/custom/vendor/plugin-bootstrap-switch.scss';
+@import 'realcruit/custom/vendor/plugin-nouislider.scss';
+@import 'realcruit/custom/vendor/plugin-datetimepicker.scss';
+
+// Cards
+
+@import 'realcruit/custom/card';
+@import 'realcruit/custom/cards/card-chart';
+@import 'realcruit/custom/cards/card-map';
+@import 'realcruit/custom/cards/card-user';
+@import 'realcruit/custom/cards/card-task';
+@import 'realcruit/custom/cards/card-plain';
+@import 'realcruit/custom/cards/card-register';
+@import 'realcruit/custom/cards/card-stats';
+@import 'realcruit/custom/cards/card-chart';
+
+// React Differences
+
+@import 'realcruit/react/react-differences';
