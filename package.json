@@ -30,7 +30,7 @@
 	"bugs": {
 		"url": "https://github.com/creativetimofficial/realcruit/issues"
 	},
-	"homepage": "https://demos.creative-tim.com/realcruit/#/",
+	"homepage": "https://hacker-nauts.github.io/realcruit/",
 	"dependencies": {
 		"chart.js": "2.9.3",
 		"classnames": "2.2.6",
@@ -57,7 +57,9 @@
 		"install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
 		"compile-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.css",
 		"minify-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.min.css --output-style compressed",
-		"map-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.css --source-map true"
+		"map-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.css --source-map true",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -71,5 +73,8 @@
 	"optionalDependencies": {
 		"eslint-plugin-flowtype": "3.13.0",
 		"typescript": "3.8.3"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.2.0"
 	}
 }
