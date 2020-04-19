@@ -36,6 +36,8 @@
 		"classnames": "2.2.6",
 		"gulp": "4.0.2",
 		"gulp-append-prepend": "1.0.8",
+		"heroku": "^7.39.3",
+		"heroku-cli": "^7.0.9",
 		"moment": "2.24.0",
 		"node-sass": "4.13.1",
 		"nouislider": "14.2.0",
@@ -59,7 +61,7 @@
 		"minify-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.min.css --output-style compressed",
 		"map-sass": "node-sass src/assets/scss/realcruit.scss src/assets/css/realcruit.css --source-map true",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d public"
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
