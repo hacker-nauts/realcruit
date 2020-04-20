@@ -2,4 +2,5 @@
 
 An AI powered platform to increase workforce diversity and quality by reducing unconcious bias in the recruitment process.
 
-![] (https://imgur.com/a/C6RYEhV)
+
+![Architecture](Documentation\RealcruitArchitecture.png)
